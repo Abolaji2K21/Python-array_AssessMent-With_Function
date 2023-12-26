@@ -1,0 +1,10 @@
+def largest_number_in_array(array):
+    largest_num = 0
+
+    for collect in range(len(array)):
+        print()
+        array[collect] = int(input("OYA BOSS SHARPLY ENTER ANY INTEGER: "))
+        if array[collect] > largest_num:
+            largest_num = array[collect]
+
+    return largest_num
